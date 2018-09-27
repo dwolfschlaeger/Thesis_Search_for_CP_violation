@@ -1,0 +1,49 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.10.14)  3 AUG 2018 00:22
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+**higgs_production_VBF.tex
+(./higgs_production_VBF.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+./higgs_production_VBF.tex:1: Undefined control sequence.
+l.1 \feynmandiagram
+                  [ horizontal=a to b] {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_VBF.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \feynmandiagram [
+                    horizontal=a to b] {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+! Emergency stop.
+<*> higgs_production_VBF.tex
+                         
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 20 strings out of 494693
+ 100000,89155 words of node,token memory allocated 2367 words of node memory still in use:
+   2 hlist, 6 math, 71 glue, 3 kern, 295 glyph, 46 glue_spec, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 1:1,2:12,3:3,9:1
+ 3864 multiletter control sequences out of 65536+600000
+ 25 fonts using 994519 bytes
+ 18i,2n,12p,121b,59s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

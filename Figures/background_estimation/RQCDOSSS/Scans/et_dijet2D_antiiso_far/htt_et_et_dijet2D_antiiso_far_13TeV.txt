@@ -1,0 +1,44 @@
+# Datacard produced by CombineHarvester with git status: analysis-HIG-16-006-freeze-080416-558-g7d0f573-dirty
+imax    1 number of bins
+jmax    8 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * et_dijet2D_antiiso_far ../common/htt.input_13TeV.root et_dijet2D_antiiso_far/$PROCESS et_dijet2D_antiiso_far/$PROCESS_$SYSTEMATIC
+shapes QCD et_dijet2D_antiiso_far ../common/htt.input_13TeV.root et_dijet2D_antiiso_far/QCD$MASS et_dijet2D_antiiso_far/QCD$MASS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          et_dijet2D_antiiso_far 
+observation  294.0           
+--------------------------------------------------------------------------------
+bin                                                       et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far et_dijet2D_antiiso_far 
+process                                                   ZTT             ZL              ZJ              TTT             TTJJ            VVT             VVJ             W               QCD             
+process                                                   1               2               3               4               5               6               7               8               0               
+rate                                                      12.2733         2.33742         0.465377        5.85403         6.79466         0.555311        0.712109        2.1433          243.583         
+--------------------------------------------------------------------------------
+CMS_eFakeTau_1prong1pizero_13TeV                  shape   -               1               -               -               -               -               -               -               -               
+CMS_eFakeTau_1prong_13TeV                         shape   -               1               -               -               -               -               -               -               -               
+CMS_eff_e                                         lnN     1.02            1.02            1.02            1.02            1.02            1.02            1.02            1.02            -               
+CMS_eff_t_13TeV                                   lnN     1.045           -               -               1.045           -               1.045           -               -               -               
+CMS_eff_t_et_13TeV                                lnN     1.03            -               -               1.03            -               1.03            -               -               -               
+CMS_eff_trigger_et_13TeV                          lnN     1.02            1.02            1.02            1.02            1.02            1.02            1.02            -               -               
+CMS_httTTNorm_13TeV                               lnN     -               -               -               1.1             -               -               -               -               -               
+CMS_htt_QCDscale_13TeV                            lnN     1.005           -               -               -               -               -               -               -               -               
+CMS_htt_VVNorm_13TeV                              lnN     -               -               -               -               -               1.1             1.1             -               -               
+CMS_htt_WNorm_13TeV                               lnN     -               -               -               -               -               -               -               1.1             -               
+CMS_htt_eFakeTau_13TeV                            lnN     -               1.12            -               -               -               -               -               -               -               
+CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_1 shape   -               -               -               -               -               -               -               -               1               
+CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_2 shape   -               -               -               -               -               -               -               -               1               
+CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_3 shape   -               -               -               -               -               -               -               -               1               
+CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_4 shape   -               -               -               -               -               -               -               -               1               
+CMS_htt_jetToTauFake_13TeV                        shape   -               -               1               -               1               -               1               -               -               
+CMS_htt_pdf_13TeV                                 lnN     1.015           -               -               -               -               -               -               -               -               
+CMS_htt_ttjXsec_13TeV                             lnN     -               -               -               1.06            1.06            -               -               -               -               
+CMS_htt_vvXsec_13TeV                              lnN     -               -               -               -               -               1.05            1.05            -               -               
+CMS_htt_wjXsec_13TeV                              lnN     -               -               -               -               -               -               -               1.04            -               
+CMS_htt_zttNorm_13TeV                             lnN     1.04            1.04            1.04            -               -               -               -               -               -               
+CMS_scale_t_1prong1pizero_13TeV                   shape   1               -               -               1               -               1               -               -               -               
+CMS_scale_t_1prong_13TeV                          shape   1               -               -               1               -               1               -               -               -               
+CMS_scale_t_3prong_13TeV                          shape   1               -               -               1               -               1               -               -               -               
+WHighMTtoLowMT_13TeV                              lnN     -               -               -               -               -               -               -               1.1             -               
+lumi_13TeV                                        lnN     1.025           1.025           1.025           1.025           1.025           1.025           1.025           -               -               
+bbb group = CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_1 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_2 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_3 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_4
+syst_plus_bbb group = CMS_eFakeTau_1prong1pizero_13TeV CMS_eFakeTau_1prong_13TeV CMS_eff_e CMS_eff_t_13TeV CMS_eff_t_et_13TeV CMS_eff_trigger_et_13TeV CMS_httTTNorm_13TeV CMS_htt_QCDscale_13TeV CMS_htt_VVNorm_13TeV CMS_htt_WNorm_13TeV CMS_htt_eFakeTau_13TeV CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_1 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_2 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_3 CMS_htt_et_et_dijet2D_antiiso_far_13TeV_QCD_bin_4 CMS_htt_jetToTauFake_13TeV CMS_htt_pdf_13TeV CMS_htt_ttjXsec_13TeV CMS_htt_vvXsec_13TeV CMS_htt_wjXsec_13TeV CMS_htt_zttNorm_13TeV CMS_scale_t_1prong1pizero_13TeV CMS_scale_t_1prong_13TeV CMS_scale_t_3prong_13TeV WHighMTtoLowMT_13TeV lumi_13TeV

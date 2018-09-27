@@ -1,0 +1,52 @@
+{
+    "analysis_modules": [
+        "NormalizeToUnity"
+    ], 
+    "colors": [
+        "material_blue2", 
+        "material_green", 
+        "material_orange"
+    ], 
+    "filename": "JHU_DCP_no_cuts", 
+    "files": [
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/GluGluH2JetsToTauTauM125CPmixingsmJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/GluGluH2JetsToTauTauM125CPmixingsmJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen.root", 
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/GluGluH2JetsToTauTauM125CPmixingmaxmixJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/GluGluH2JetsToTauTauM125CPmixingmaxmixJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen.root", 
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/GluGluH2JetsToTauTauM125CPmixingpseudoscalarJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/GluGluH2JetsToTauTauM125CPmixingpseudoscalarJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen.root"
+    ], 
+    "folders": [
+        "tt_nominal/ntuple"
+    ], 
+    "formats": [
+        "png", 
+        "pdf"
+    ], 
+    "labels": [
+        "ggH+2j(#alpha=0)", 
+        "ggH+2j(#alpha=#frac{#pi}{4})", 
+        "ggH+2j(#alpha=#frac{#pi}{2})"
+    ], 
+    "legend": [], 
+    "legend_markers": [
+        "LINE"
+    ], 
+    "markers": [
+        "LINE"
+    ], 
+    "title": "#tau_{h}#tau_{h}", 
+    "weights": [
+        "(njets>1)"
+    ], 
+    "www": "CPHypotheses", 
+    "x_bins": [
+        "3,-1,1"
+    ], 
+    "x_expressions": [
+        "melaDiscriminatorDCPGGH"
+    ], 
+    "x_label": "D_{CP}", 
+    "y_label": "arb. u.", 
+    "y_lims": [
+        0.0, 
+        1.5
+    ]
+}

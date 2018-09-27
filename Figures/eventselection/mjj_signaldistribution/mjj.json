@@ -1,0 +1,137 @@
+{
+    "analysis_modules": [
+        "BinErrorsOfEmptyBins", 
+        "CorrectNegativeBinContents", 
+        "NormalizeToUnity", 
+        "Ratio"
+    ], 
+    "category": null, 
+    "colors": [
+        "gghjhusm125", 
+        "gghjhumm125", 
+        "gghjhups125"
+    ], 
+    "comment": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/bin/slc6_amd64_gcc530/makePlots_controlPlots.py -i /nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/ -s gghjhusm gghjhumm gghjhups -c tt -x mjj -a  --live --www mjj_signaldistribution --ratio-denominator-nicks gghjhusm125jhusm gghjhusm125jhusm gghjhusm125jhusm --ratio-numerator-nicks gghjhusm125jhusm gghjhumm125jhumm gghjhups125jhups --ratio-result-nicks smsm mmsm pssm --subplot-nicks pssm smsm mmsm --y-subplot-label \"Ratio to SM\"  --stacks 1 2 3 4 5 6 --x-bins \"10,0,1500 \" -m EHIST --formats png pdf --y-label #frac{1}{N}#frac{dN}{dm_{jj}} --y-title-offset 1.1 --legend-cols 1 --legend 0.5 0.5 0.87 0.9   --analysis-modules NormalizeToUnity Ratio", 
+    "directories": [
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/"
+    ], 
+    "energies": [
+        13
+    ], 
+    "files": [
+        "GluGluH2JetsToTauTauM125CPmixingsmJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingmaxmixJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingpseudoscalarJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root"
+    ], 
+    "folders": [
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple"
+    ], 
+    "formats": [
+        "png", 
+        "pdf"
+    ], 
+    "labels": [
+        "gghjhusm125", 
+        "gghjhumm125", 
+        "gghjhups125"
+    ], 
+    "legend": [
+        0.5, 
+        0.5, 
+        0.87, 
+        0.9
+    ], 
+    "legend_cols": 1, 
+    "legend_markers": [
+        "L", 
+        "L", 
+        "L"
+    ], 
+    "lumis": [
+        35.9
+    ], 
+    "markers": [
+        "EHIST"
+    ], 
+    "nicks": [
+        "gghjhusm125jhusm", 
+        "gghjhumm125jhumm", 
+        "gghjhups125jhups"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "nicks_correct_negative_bins": [
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "nicks_empty_bins": [
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "output_dir": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/control_plots/tt/", 
+    "ratio_denominator_nicks": [
+        "gghjhusm125jhusm", 
+        "gghjhusm125jhusm", 
+        "gghjhusm125jhusm"
+    ], 
+    "ratio_numerator_nicks": [
+        "gghjhusm125jhusm", 
+        "gghjhumm125jhumm", 
+        "gghjhups125jhups"
+    ], 
+    "ratio_result_nicks": [
+        "smsm", 
+        "mmsm", 
+        "pssm"
+    ], 
+    "scale_factors": [
+        35870.0, 
+        35870.0, 
+        35870.0
+    ], 
+    "stacks": [
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "5", 
+        "6"
+    ], 
+    "subplot_nicks": [
+        "pssm", 
+        "smsm", 
+        "mmsm"
+    ], 
+    "title": "channel_tt", 
+    "weights": [
+        "(1.0)*(1.0)*(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)"
+    ], 
+    "www": "mjj_signaldistribution", 
+    "x_bins": [
+        "10,0,1500 "
+    ], 
+    "x_expressions": [
+        "mjj", 
+        "mjj", 
+        "mjj"
+    ], 
+    "x_label": "tt_mjj", 
+    "y_label": "#frac{1}{N}#frac{dN}{dm_{jj}}", 
+    "y_lims": [
+        0.0
+    ], 
+    "y_rel_lims": [
+        0.0, 
+        1.4
+    ], 
+    "y_subplot_label": "Ratio to SM", 
+    "y_title_offset": 1.1, 
+    "year": "2016"
+}

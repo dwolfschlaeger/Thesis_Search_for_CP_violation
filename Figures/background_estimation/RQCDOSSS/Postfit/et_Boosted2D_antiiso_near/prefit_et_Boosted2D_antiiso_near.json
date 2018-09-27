@@ -1,0 +1,159 @@
+{
+    "analysis_modules": [
+        "SumOfHistograms", 
+        "Ratio"
+    ], 
+    "colors": [
+        "ztt", 
+        "zll", 
+        "ttj", 
+        "ewk", 
+        "qcd", 
+        "15", 
+        "data_obs", 
+        "15", 
+        "#000000"
+    ], 
+    "comment": "HiggsAnalysis/KITHiggsToTauTau/scripts/makePlots_datacardsQCDfactors.py -i /nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/ -c et -c mt --categories ZeroJet2D_antiiso_near Boosted2D_antiiso_near dijet2D_lowboost_antiiso_near dijet2D_antiiso_near --www background_studies/near_20180925 --log-level debug -o /afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/QcdFactorsStudies_datacards/near_20180925", 
+    "energies": [
+        13.0
+    ], 
+    "filename": "prefit_et_Boosted2D_antiiso_near", 
+    "files": [
+        "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/QcdFactorsStudies_datacards/near_20180925/datacards/et_Boosted2D_antiiso_near/htt_et_et_Boosted2D_antiiso_near_13TeV_fit_s.root"
+    ], 
+    "folders": [
+        "et_Boosted2D_antiiso_near_prefit"
+    ], 
+    "formats": [
+        "png", 
+        "pdf"
+    ], 
+    "labels": [
+        "ztt", 
+        "zll", 
+        "ttj", 
+        "ewk", 
+        "qcd", 
+        "totalbkg", 
+        "data_obs", 
+        "", 
+        ""
+    ], 
+    "legend": [
+        0.7, 
+        0.4, 
+        0.92, 
+        0.82
+    ], 
+    "legend_markers": [
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "ELP", 
+        "F", 
+        "ELP"
+    ], 
+    "lumis": [
+        35.9
+    ], 
+    "markers": [
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "E2", 
+        "E", 
+        "E2", 
+        "E"
+    ], 
+    "nicks": [
+        "ZTT", 
+        "ZL_noplot", 
+        "ZJ_noplot", 
+        "TTT_noplot", 
+        "VVT_noplot", 
+        "VVJ_noplot", 
+        "W_noplot", 
+        "TTJJ_noplot", 
+        "QCD", 
+        "noplot_TotalBkg", 
+        "noplot_TotalSig", 
+        "data_obs"
+    ], 
+    "output_dir": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/QcdFactorsStudies_datacards/near_20180925/datacards/et_Boosted2D_antiiso_near/plots", 
+    "ratio_denominator_nicks": [
+        "noplot_TotalBkg noplot_TotalSig", 
+        "noplot_TotalBkg noplot_TotalSig"
+    ], 
+    "ratio_denominator_no_errors": true, 
+    "ratio_numerator_nicks": [
+        "noplot_TotalBkg noplot_TotalSig", 
+        "data_obs"
+    ], 
+    "ratio_result_nicks": [
+        "ratio_unc", 
+        "ratio"
+    ], 
+    "stacks": [
+        "bkg", 
+        "bkg", 
+        "bkg", 
+        "bkg", 
+        "bkg", 
+        "data", 
+        "", 
+        "unc", 
+        "ratio"
+    ], 
+    "subplot_grid": true, 
+    "sum_nicks": [
+        "noplot_TotalBkg noplot_TotalSig", 
+        "ZL_noplot ZJ_noplot", 
+        "TTT_noplot TTJJ_noplot", 
+        "VVT_noplot VVJ_noplot W_noplot"
+    ], 
+    "sum_result_nicks": [
+        "Total", 
+        "ZLL", 
+        "TTJ", 
+        "EWK"
+    ], 
+    "sum_scale_factors": [
+        "1.0 1.0", 
+        "1.0 1.0", 
+        "1.0 1.0", 
+        "1.0 1.0 1.0"
+    ], 
+    "texts_size": [
+        0.055
+    ], 
+    "title": "channel_et", 
+    "www": "background_studies/near_20180925/et/et_Boosted2D_antiiso_near", 
+    "x_expressions": [
+        "ZTT", 
+        "ZL", 
+        "ZJ", 
+        "TTT", 
+        "VVT", 
+        "VVJ", 
+        "W", 
+        "TTJJ", 
+        "QCD", 
+        "TotalBkg", 
+        "TotalSig", 
+        "data_obs"
+    ], 
+    "x_label": "m_{#tau#tau}", 
+    "y_label": "Events / bin", 
+    "y_subplot_label": "Obs./Exp.", 
+    "y_subplot_lims": [
+        0.5, 
+        1.5
+    ], 
+    "year": "2016"
+}

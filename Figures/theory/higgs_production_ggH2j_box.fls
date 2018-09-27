@@ -1,0 +1,5 @@
+PWD /Users/dominik/Desktop/Master/master-thesis/Figures/theory
+INPUT /usr/local/texlive/2015/texmf-var/web2c/luatex/lualatex.fmt
+INPUT ./higgs_production_ggH2j_box.tex
+OUTPUT higgs_production_ggH2j_box.log
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua

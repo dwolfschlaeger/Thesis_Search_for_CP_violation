@@ -1,0 +1,97 @@
+{
+    "analysis_modules": [
+        "BinErrorsOfEmptyBins", 
+        "CorrectNegativeBinContents", 
+        "NormalizeToUnity"
+    ], 
+    "category": null, 
+    "colors": [
+        "material_blue2", 
+        "material_green", 
+        "material_orange"
+    ], 
+    "comment": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/bin/slc6_amd64_gcc530/makePlots_controlPlots.py -i /nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/ -s gghjhusm gghjhumm gghjhups -c tt -x jdphi --shapes -a  --colors material_blue2  material_green material_orange -m LINE --x-bins \"16,-3.141,3.141\" --filename JHU_jdphi_mjj_cuts --live --y-lims 0 0.11 --legend-markers LINE --formats png pdf --y-lims 0 0.15  --www CPHypotheses -w (njets>1)*(mjj>300)", 
+    "directories": [
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/"
+    ], 
+    "filename": "JHU_jdphi_mjj_cuts", 
+    "files": [
+        "GluGluH2JetsToTauTauM125CPmixingsmJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingmaxmixJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingpseudoscalarJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root"
+    ], 
+    "folders": [
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple"
+    ], 
+    "formats": [
+        "png", 
+        "pdf"
+    ], 
+    "labels": [
+        "gghjhusm125", 
+        "gghjhumm125", 
+        "gghjhups125"
+    ], 
+    "legend": [
+        0.55, 
+        0.65, 
+        0.9, 
+        0.88
+    ], 
+    "legend_markers": [
+        "LINE"
+    ], 
+    "line_widths": [
+        3
+    ], 
+    "markers": [
+        "LINE"
+    ], 
+    "nicks": [
+        "gghjhusm125jhusm", 
+        "gghjhumm125jhumm", 
+        "gghjhups125jhups"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "nicks_correct_negative_bins": [
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "nicks_empty_bins": [
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "output_dir": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/control_plots/tt/", 
+    "scale_factors": [
+        35870.0, 
+        35870.0, 
+        35870.0
+    ], 
+    "title": "channel_tt", 
+    "weights": [
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)"
+    ], 
+    "www": "CPHypotheses/tt/", 
+    "x_bins": [
+        "16,-3.141,3.141"
+    ], 
+    "x_expressions": [
+        "jdphi", 
+        "jdphi", 
+        "jdphi"
+    ], 
+    "x_label": "#Delta#phi_{jj}", 
+    "y_label": "arb. u.", 
+    "y_lims": [
+        0.0, 
+        0.15
+    ]
+}

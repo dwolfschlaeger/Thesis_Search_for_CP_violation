@@ -1,0 +1,321 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.10.14)  8 AUG 2018 10:28
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+**higgs_production_ggf.tex
+(./higgs_production_ggf.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./higgs_production_ggf.tex:1: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}
+                     [line width=1.5pt, scale=1.2]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./higgs_production_ggf.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}[
+                      line width=1.5pt, scale=1.2]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:2: Undefined control sequence.
+l.2 \draw
+       [step=0.5cm, very thin, transparent] (0cm,0cm) grid (4cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[][][line
+ []
+
+./higgs_production_ggf.tex:4: Undefined control sequence.
+l.4 \draw
+       [gluon] (0cm,1cm) -- (1.25cm,1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:4: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \draw[
+        gluon] (0cm,1cm) -- (1.25cm,1cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:5: Undefined control sequence.
+l.5 \node
+        at (0cm-0.3cm,0cm) {$g$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--6
+[][][gluon]
+ []
+
+
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 4--6
+\OML/cmm/m/it/10 g$\nullfont ; 
+ []
+
+./higgs_production_ggf.tex:7: Undefined control sequence.
+l.7 \draw
+       [gluon] (0cm,-1cm) -- (1.25cm,-1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:7: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \draw[
+        gluon] (0cm,-1cm) -- (1.25cm,-1cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:8: Undefined control sequence.
+l.8 \node
+        at (0cm-0.3cm,0cm) {$g$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--9
+[][][gluon]
+ []
+
+
+Overfull \hbox (5.12846pt too wide) in paragraph at lines 7--9
+\OML/cmm/m/it/10 g$\nullfont ; 
+ []
+
+./higgs_production_ggf.tex:10: Undefined control sequence.
+l.10 \draw
+        [fermion] (1.25cm,1cm) -- (1.25cm,-1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:10: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \draw[
+         fermion] (1.25cm,1cm) -- (1.25cm,-1cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:11: Undefined control sequence.
+l.11 \node
+         at (0cm-0.3cm,2cm) {$t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--12
+[][][fermion]
+ []
+
+
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 10--12
+\OML/cmm/m/it/10 t$\nullfont ; 
+ []
+
+./higgs_production_ggf.tex:13: Undefined control sequence.
+l.13 \draw
+        [fermionbar] (2.75cm,1cm) -- (4cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:13: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \draw[
+         fermionbar] (2.75cm,1cm) -- (4cm,2cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:14: Undefined control sequence.
+l.14 \node
+         at (4cm+0.3cm,2cm) {$t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--15
+[][][fermionbar]
+ []
+
+
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 13--15
+\OML/cmm/m/it/10 t$\nullfont ; 
+ []
+
+./higgs_production_ggf.tex:16: Undefined control sequence.
+l.16 \draw
+        [vector] (2.75cm,1cm) -- node[below]{$\PZ / \Pgg^*$} (1.25cm,1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:16: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \draw[
+         vector] (2.75cm,1cm) -- node[below]{$\PZ / \Pgg^*$} (1.25cm,1cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:16: Undefined control sequence.
+<recently read> \PZ 
+    
+l.16 \draw[vector] (2.75cm,1cm) -- node[below]{$\PZ
+                                                  / \Pgg^*$} (1.25cm,1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./higgs_production_ggf.tex:16: Undefined control sequence.
+l.16 ...tor] (2.75cm,1cm) -- node[below]{$\PZ / \Pgg
+                                                  ^*$} (1.25cm,1cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
+[][][vector]
+ []
+
+
+Overfull \hbox (9.59724pt too wide) in paragraph at lines 16--17
+node[below]$\OML/cmm/m/it/10 =[]$
+ []
+
+./higgs_production_ggf.tex:18: Undefined control sequence.
+l.18 \draw
+        [fermion] (2.75cm,1cm) -- (4cm,0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:18: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \draw[
+         fermion] (2.75cm,1cm) -- (4cm,0cm);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./higgs_production_ggf.tex:19: Undefined control sequence.
+l.19 \node
+         at (4cm+0.3cm,0cm) {$t$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./higgs_production_ggf.tex:20: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{tikzpicture}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> higgs_production_ggf.tex
+                         
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 23 strings out of 494693
+ 100000,89155 words of node,token memory allocated 3375 words of node memory still in use:
+   26 hlist, 3 disc, 8 math, 81 glue, 2 kern, 17 penalty, 396 glyph, 51 glue_spec, 1 temp, 7 local_par, 1 dir nodes
+   avail lists: 2:11,3:1,6:1,7:10,9:1,10:6
+ 3867 multiletter control sequences out of 65536+600000
+ 25 fonts using 994519 bytes
+ 18i,1n,12p,97b,61s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

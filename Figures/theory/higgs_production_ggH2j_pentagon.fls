@@ -1,0 +1,7 @@
+PWD /Users/dominik/Desktop/Master/master-thesis/Figures/theory
+INPUT /usr/local/texlive/2015/texmf-var/web2c/luatex/lualatex.fmt
+INPUT ./higgs_production_ggH2j_pentagon.tex
+OUTPUT higgs_production_ggH2j_pentagon.log
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm

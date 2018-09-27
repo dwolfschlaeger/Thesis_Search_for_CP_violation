@@ -1,0 +1,149 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.10.14)  14 SEP 2018 22:42
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+**category_purities.tex
+(./category_purities.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./category_purities.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tabular}
+                 {lcccc}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+./category_purities.tex:2: Undefined control sequence.
+l.2 \toprule
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:5: Undefined control sequence.
+<recently read> \midrule 
+         
+l.5 \midrule
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:6: Undefined control sequence.
+l.6 \multirow
+           {2}{*}{$e\mu$   }                        &  0.29, 0.00,  &  0.51,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:8: Undefined control sequence.
+<recently read> \multirow 
+          
+l.8 \multirow
+           {2}{*}{$e\tau_\text{h}$  }             &  0.47, 0.01,  &  0.67, 0...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:8: Undefined control sequence.
+l.8 \multirow{2}{*}{$e\tau_\text
+                              {h}$  }             &  0.47, 0.01,  &  0.67, 0...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:10: Undefined control sequence.
+<recently read> \multirow 
+          
+l.10 \multirow
+            {2}{*}{$\mu\tau_\text{h}$ }            &  0.44, 0.01,  &  0.67, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:10: Undefined control sequence.
+l.10 \multirow{2}{*}{$\mu\tau_\text
+                                 {h}$ }            &  0.44, 0.01,  &  0.67, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:12: Undefined control sequence.
+<recently read> \multirow 
+          
+l.12 \multirow
+            {2}{*}{$\tau_\text{h}\tau_\text{h}$} &  0.54, 0.01,  &  0.88, 0....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:12: Undefined control sequence.
+l.12 \multirow{2}{*}{$\tau_\text
+                              {h}\tau_\text{h}$} &  0.54, 0.01,  &  0.88, 0....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:12: Undefined control sequence.
+l.12 \multirow{2}{*}{$\tau_\text{h}\tau_\text
+                                           {h}$} &  0.54, 0.01,  &  0.88, 0....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./category_purities.tex:14: Undefined control sequence.
+<recently read> \bottomrule 
+            
+l.14 \bottomrule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> category_purities.tex
+                      
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 24 strings out of 494693
+ 100000,89155 words of node,token memory allocated 4688 words of node memory still in use:
+   67 hlist, 1 vlist, 10 rule, 1 disc, 10 math, 280 glue, 364 glyph, 145 glue_spec, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 1:1,2:13,3:6,4:3,6:4,7:1,9:5
+ 3868 multiletter control sequences out of 65536+600000
+ 25 fonts using 994519 bytes
+ 19i,8n,12p,164b,108s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

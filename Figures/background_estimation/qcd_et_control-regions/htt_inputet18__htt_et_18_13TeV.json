@@ -1,0 +1,147 @@
+{
+    "analysis_modules": [
+        "Ratio", 
+        "NormalizeByBinWidth"
+    ], 
+    "colors": [
+        "ztt", 
+        "zll", 
+        "tt", 
+        "vv", 
+        "w", 
+        "qqh", 
+        "data_obs", 
+        "totalbkg", 
+        "data_obs"
+    ], 
+    "comment": "HiggsAnalysis/KITHiggsToTauTau/scripts/makePlots_prefitPostfitPlots.py -i CombineHarvester/HTTSMCP2016/output/2018-09-04_FULL_mela3D_JECgroupings/et/common/htt_inputet18.root -b ZTT ZLL ZL ZJ TT TTT TTJ VV VVT VVJ W QCD qqH qqHsm_htt125 WH_htt125 ZH_htt125 -r -a  --live  --title \"e#tau_{h}-lowboost W SS CR\" --log-level debug     --formats pdf png --www qcd_et_control-regions  --cpggh", 
+    "energies": [
+        13
+    ], 
+    "filename": "htt_inputet18__htt_et_18_13TeV", 
+    "files": [
+        "CombineHarvester/HTTSMCP2016/output/2018-09-04_FULL_mela3D_JECgroupings/et/common/htt_inputet18.root"
+    ], 
+    "folders": [
+        "htt_et_18_13TeV"
+    ], 
+    "formats": [
+        "pdf", 
+        "png"
+    ], 
+    "histograms_to_normalize_by_binwidth": [
+        "W", 
+        "ZJ", 
+        "data_obs", 
+        "VVT_VVJ", 
+        "qqHsm_htt125_WH_htt125_ZH_htt125", 
+        "ZTT", 
+        "TTT_TTJ"
+    ], 
+    "labels": [
+        "ztt", 
+        "zll", 
+        "tt", 
+        "vv", 
+        "w", 
+        "qqh", 
+        "data_obs", 
+        "", 
+        ""
+    ], 
+    "legend": [
+        0.23, 
+        0.63, 
+        0.9, 
+        0.83
+    ], 
+    "legend_cols": 3, 
+    "legend_markers": [
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "ELP", 
+        "ELP", 
+        "ELP"
+    ], 
+    "log_level": "debug", 
+    "lumis": [
+        35.9
+    ], 
+    "markers": [
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "E", 
+        "E2", 
+        "E"
+    ], 
+    "nicks": [
+        "ZTT", 
+        "ZJ", 
+        "TTT_TTJ", 
+        "TTT_TTJ", 
+        "VVT_VVJ", 
+        "VVT_VVJ", 
+        "W", 
+        "qqHsm_htt125_WH_htt125_ZH_htt125", 
+        "qqHsm_htt125_WH_htt125_ZH_htt125", 
+        "qqHsm_htt125_WH_htt125_ZH_htt125", 
+        "data_obs"
+    ], 
+    "output_dir": "CombineHarvester/HTTSMCP2016/output/2018-09-04_FULL_mela3D_JECgroupings/et/common", 
+    "ratio_denominator_nicks": [
+        "W ZJ VVT_VVJ qqHsm_htt125_WH_htt125_ZH_htt125 ZTT TTT_TTJ", 
+        "W ZJ VVT_VVJ qqHsm_htt125_WH_htt125_ZH_htt125 ZTT TTT_TTJ"
+    ], 
+    "ratio_numerator_nicks": [
+        "W ZJ VVT_VVJ qqHsm_htt125_WH_htt125_ZH_htt125 ZTT TTT_TTJ", 
+        "data_obs"
+    ], 
+    "ratio_result_nicks": [
+        "ratio_bkg", 
+        "ratio_data"
+    ], 
+    "stacks": [
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "data", 
+        "ratio_bkg", 
+        "ratio_data"
+    ], 
+    "title": "e#tau_{h}-lowboost W SS CR", 
+    "www": "qcd_et_control-regions", 
+    "x_expressions": [
+        "ZTT", 
+        "ZJ", 
+        "TTT", 
+        "TTJ", 
+        "VVT", 
+        "VVJ", 
+        "W", 
+        "qqHsm_htt125", 
+        "WH_htt125", 
+        "ZH_htt125", 
+        "data_obs"
+    ], 
+    "x_label": "m_{#tau#tau}/GeV", 
+    "y_label": "Events/Bin", 
+    "y_lims": [
+        0.0
+    ], 
+    "y_rel_lims": [
+        0.0, 
+        1.5
+    ], 
+    "year": "2016"
+}

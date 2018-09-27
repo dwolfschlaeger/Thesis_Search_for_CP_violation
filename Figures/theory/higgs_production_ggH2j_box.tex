@@ -1,0 +1,24 @@
+\begin{tikzpicture}[line width=1.5pt, scale=1.2]
+% \draw[step=0.5cm, very thin, transparent] (0cm,0cm) grid (3.5cm,2cm);
+
+\draw[gluon] (-1.25cm,1.0cm) -- (-0.5cm,1.0cm);
+\draw[fermion] (-0.5cm,1.0cm) -- (1cm,1.0cm);
+\draw[gluon] (1cm,1.cm) -- (2cm,1.cm);
+
+\draw[fermion] (-1.25cm,-1.5cm) -- (-0.5cm,-1.5cm);
+\draw[fermion] (-0.5cm,-1.5cm) -- (2cm,-1.5cm);
+
+
+\draw[gluon] (-0.5cm,-1.5cm) -- (-.5cm,-.5cm);
+\draw[fermion] (-0.5cm,-.5cm) -- (-.5cm,1.0cm);
+\draw[fermion] (1cm,1.0cm) -- (1cm,-.5cm);
+\draw[fermion] (1cm,-.5cm) -- (-0.5cm,-.5cm);
+
+\draw[scalar, ctcoloraccessory] (1cm,-0.5cm) -- (2cm,-0.5cm);
+\node at (1.8cm-0.3cm,-.8cm) {\textbf{\textit{H}}};
+\fill[black] (-0.5cm,1.0cm) circle (0.1cm);
+\fill[black] (1.0cm,1.0cm) circle (0.1cm);
+\fill[black] (1.0cm,-0.5cm) circle (0.1cm);
+\fill[black] (-0.5cm,-0.5cm) circle (0.1cm);
+\fill[black] (-0.5cm,-1.5cm) circle (0.1cm);
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+\feynmandiagram [ horizontal=a to b] {
+  i2 [particle = \(q\)] -- [fermion, very thick] g2 [dot] -- [fermion, very thick ] e2 [particle=\(t\)],
+  e1 [particle = \(\bar{t}\)] -- [fermion, very thick] g1 [dot] -- [fermion, very thick ] i1 [particle=\(q'\)], 
+  g1 -- [fermion, very thick ] a,
+  a -- [fermion, very thick] g2,
+  a -- [scalar, very thick] b [particle=\( H \)],
+  e1 -- [opacity=.0] b -- [opacity=.0] e2,
+  i1 -- [opacity=.0]  i3 -- [opacity=.0]  i2,
+  i3 -- [opacity=.0]  a,
+};

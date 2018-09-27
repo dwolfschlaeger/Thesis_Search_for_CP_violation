@@ -1,0 +1,283 @@
+% **************************************************
+% Document Class Definition
+% **************************************************
+\documentclass[%
+	paper=A4,					% paper size --> A4 is default in Germany
+	twoside=true,				% onesite or twoside printing
+	openright,					% doublepage cleaning ends up right side
+	parskip=full,				% spacing value / method for paragraphs
+	chapterprefix=true,			% prefix for chapter marks
+	DIV=12,
+	11pt,						% font size
+	headings=normal,			% size of headings
+	bibliography=totoc,			% include bib in toc
+	listof=totoc,				% include listof entries in toc
+	titlepage=on,				% own page for each title page
+	captions=tableabove,		% display table captions above the float env
+	draft=false,				% value for draft version
+]{scrreprt}%
+\usepackage{sansmathfonts}
+\usepackage{amsmath}
+\usepackage{textgreek}
+\usepackage{colortbl}
+\usepackage{transparent}
+\usepackage{eso-pic}
+% for feynman diagrams
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{trees}
+\usetikzlibrary{matrix,arrows}                 % For commutative diagram
+                                            % http://www.felixl.de/commu.pdf
+\usetikzlibrary{positioning}                % For "above of=" commands
+\usetikzlibrary{calc,through}                % For coordinates
+\usetikzlibrary{decorations.pathreplacing}  % For curly braces
+% http://www.math.ucla.edu/~getreuer/tikz.html
+\usepackage{pgffor}                            % For repeating patterns
+
+\usetikzlibrary{decorations.pathmorphing}    % For Feynman Diagrams
+\usetikzlibrary{decorations.markings}
+\tikzset{
+    >=stealth', %%  Uncomment for more conventional arrows
+    vector/.style={decorate, decoration={snake}, draw},
+    provector/.style={decorate, decoration={snake,amplitude=2.5pt}, draw},
+    antivector/.style={decorate, decoration={snake,amplitude=-2.5pt}, draw},
+    fermion/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow{>}}}},
+    fermionbar/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow{<}}}},
+    fermionnoarrow/.style={draw=black},
+    gluon/.style={decorate, draw=black,
+        decoration={coil,amplitude=4pt, segment length=5pt}},
+    scalar/.style={dashed,draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow{>}}}},
+    scalarbar/.style={dashed,draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow{<}}}},
+    scalarnoarrow/.style={dashed,draw=black},
+    electron/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow{>}}}},
+    bigvector/.style={decorate, decoration={snake,amplitude=4pt}, draw},
+}
+
+% Function to include a background picture to the titel page and following pages
+\newcommand\BackgroundPic[1]{%
+\centering
+\begin{tikzpicture}[remember picture, overlay]
+ \node[opacity=0.04,inner sep=0pt] at (current page.center)
+  {\includegraphics[width=1.5\paperwidth]{#1}};
+ \end{tikzpicture}
+}
+
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+
+\newcommand{\thesisTitle}{Measurement of Higgs boson CP properties in fermionic couplings with the CMS Detector}
+\newcommand{\thesisName}{Dominik Wolfschl\"ager}
+\newcommand{\thesisSubject}{Masterarbeit}
+\newcommand{\thesisDate}{11. Oktober 2018}
+\newcommand{\thesisVersion}{Draft 1}
+
+\newcommand{\thesisFirstReviewer}{Univ.-Prof. Dr. rer. nat. Achim Stahl}
+\newcommand{\thesisFirstReviewerUniversity}{\protect{RWTH Aachen University}}
+\newcommand{\thesisFirstReviewerDepartment}{}
+
+\newcommand{\thesisSecondReviewer}{Priv.Doz. Oliver Pooth}
+\newcommand{\thesisSecondReviewerUniversity}{\protect{RWTH Aachen University}}
+\newcommand{\thesisSecondReviewerDepartment}{}
+
+\newcommand{\thesisFirstSupervisor}{Prof. Dr. Achim Stahl}
+\newcommand{\thesisSecondSupervisor}{}
+
+\newcommand{\thesisUniversity}{\protect{RWTH Aachen University}}
+\newcommand{\thesisUniversityDepartment}{Department of Clean Thesis Style}
+\newcommand{\thesisUniversityInstitute}{Institut for Clean Thesis Dev}
+\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityCity}{Aachen}
+\newcommand{\thesisUniversityStreetAddress}{Street address}
+\newcommand{\thesisUniversityPostalCode}{Postal Code}
+
+\newcommand{\textunderscript}[1]{$_{\text{#1}}$}
+% Mathe 
+\makeatletter
+\newcommand*{\textoverline}[1]{$\bar{\hbox{#1}}\m@th$}
+\makeatother
+%Nützliche Vektordefinitionen
+\newcommand{\vvec}[3]{\begin{pmatrix} #1 \\ #2 \\ #3 \end{pmatrix}} %3er Spaltenvektor
+\newcommand{\vecbe}[1]{\vec{\hat e}_{#1}} %EInheitsrichtungsvektor
+\newcommand{\tdvec}[2]{\begin{pmatrix} #1 \\ #2 \end{pmatrix} }
+\newcommand{\nullvec}{\boldsymbol{\it 0}} 
+%Kugelkoordinaten
+\newcommand{\ephi}{\vecbe{\phi}} %Einheitsrichtungsvektor in \phi Richtung
+\newcommand{\etheta}{\vecbe{\theta}} %Einheitsrichtungsvektor in \theta Richtung
+
+%Klammern
+\newcommand{\li}{\left(} %linke Klammer (
+\newcommand{\re}{\right)}%recht Klammer ) 
+\newcommand{\poi}[1]{\left\{ #1 \right\}} %geschwungene Klammern { }
+\newcommand{\bra}[1]{\left< #1 \right|} %angled < >
+\newcommand{\ket}[1]{\left| #1 \right>}
+\newcommand{\braket}[2]{ \left< #1 \right|\hspace*{-3.5pt}\left.#2 \right>} %Skalarprodukt im Hilbertraum
+
+%Differentiale
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}} %partielle Ableitung
+\newcommand{\diff}[2]{\frac{\mathrm d #1}{\mathrm d #2}} %totale Ableitung
+\newcommand{\pdiffc}[3]{\left( \frac{\partial #1}{\partial #2} \right)_{#3}} 
+
+%Mathematische Symbole
+\newcommand{\meq}{\overset{!}{=}}
+\newcommand{\di}{\mathrm d} %aufrechtes "d" für Differentiale 
+\newcommand{\origo}[1]{\mathcal O \text{(#1)}} %"Terme der Ordnung...
+\newcommand{\Lagr}{\mathcal{L}} %"Terme der Ordnung...
+\newcommand{\reell}{\mathbb R} %Zeichen für den reellen Zahlenraum
+\newcommand{\Kern}{\mathrm{Kern} \, } 
+\newcommand{\abs}[1]{\left| #1 \right| } %Betrag
+\newcommand{\vecnorm}[1]{\left| \left| #1 \right| \right| } %Vektornorm
+\newcommand{\matb}[1]{\mathbf #1} %Fettdruck im Mathematikmodus
+\newcommand{\uuline}[1]{\underline{\underline{ #1}}} %Doppelt Underlined für Matrizen
+\newcommand{\im}{\mathrm i} %für imaginäre Zahl 
+\newcommand{\expe}{\mathrm e} %Eulerzahl
+\newcommand{\unit}[1]{\, \text{#1} } %Aufrecht für Einheiten
+\newcommand{\unitb}[1]{\, \mathbf{#1} } %Fett gedruckte Einheiten
+\newcommand{\pow}[1]{\cdot 10^{#1} } 
+\renewcommand{\\}{\newline \noindent} 
+\newcommand{\degree}{^{\circ}}
+
+%Sonstiges
+\newcommand{\tab}{\hspace*{0.5cm}}
+\newcommand{\ttab}{\hspace*{1.0cm}}
+\newcommand{\cit}[1]{``#1''}
+\newcommand{\Tr}{\mathrm{Tr}\ }
+
+% particle physics
+\newcommand{\htt}{$H\rightarrow\tau\tau$ }
+\newcommand{\ggh}{$gg\rightarrow H$ }
+\newcommand{\ttbar}{$t\bar{t}$}
+\newcommand{\pt}{$p_{\text{\,T}}$}
+\newcommand{\mt}{$m_{\text{T}}$}
+\newcommand{\msv}{$m_{\tau\tau}$}
+\newcommand{\ptautau}{$p_\text{\,T}^{\tau\tau}$}
+\newcommand{\tautau}{$\tau_{\text{h}}\tau_{\text{h}}$}
+\newcommand{\mutau}{$\mu\tau_{\text{h}}$}
+\newcommand{\etau}{$e\tau_{\text{h}}$}
+\newcommand{\emu}{$e\mu$}
+\newcommand{\antikt}{\textit{anti-k\textunderscript{T}}}
+\newcommand{\tauh}{$\tau_\text{h}$}
+\newcommand{\jdphi}{$\Delta\phi_\text{jj}$}
+\renewcommand{\eta}{\text{\textit{\texteta}}}
+\renewcommand{\pi}{\text{\textit{\textpi}}}
+\renewcommand{\lambda}{\text{\textit{\textlambda}}}
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+
+\usepackage[utf8]{inputenc}		% defines file's character encoding
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\usepackage[					% clean thesis style
+	figuresep=colon,%
+	sansserif=false,%
+	hangfigurecaption=false,%
+	hangsection=false,%
+	hangsubsection=false,%
+	hangsubsubsection=false,%
+	colorize=full,%
+	colortheme=bonbon,%
+	bibsys=bibtex,%
+	bibfile=bib-refs,%
+	bibstyle=numeric,%
+]{cleanthesis}
+\usepackage{tikz-feynman}
+\usepackage{subcaption}
+% \usepackage{subfig}
+\usepackage{tabu} 
+% \pdfpageattr{/Group <</S /Transparency /I true /CS /DeviceRGB>>} 
+\hypersetup{					% setup the hyperref-package options
+	pdftitle={\thesisTitle},	% 	- title (PDF meta)
+	pdfsubject={\thesisSubject},% 	- subject (PDF meta)
+	pdfauthor={\thesisName},	% 	- author (PDF meta)
+	plainpages=false,			% 	-
+	colorlinks=false,			% 	- colorize links?
+	pdfborder={0 0 0},			% 	-
+	breaklinks=true,			% 	- allow line break inside links
+	bookmarksnumbered=true,		%
+	bookmarksopen=true			%
+}
+% \setcounter{secnumdepth}{6}
+\renewcommand{\arraystretch}{1.2}
+\newcommand*{\plotarchive}[1]{/Users/dominik/cernbox/www/plots_archive/#1}
+
+\DeclareMathSizes{12}{12}{10}{9}
+% **************************************************
+% Document CONTENT
+% **************************************************
+\begin{document}
+% --------------------------
+% rename document parts
+% --------------------------
+
+\renewcaptionname{english}{\figurename}{Fig.}
+\renewcaptionname{english}{\tablename}{Tab.}
+
+% --------------------------
+% Front matter
+% --------------------------
+
+\pagenumbering{roman}			% roman page numbing (invisible for empty page style)
+\pagestyle{empty}
+\newgeometry{margin=1in,bindingoffset=.5cm,showframe}				% no header or footers
+\input{contents/titlepage}
+\restoregeometry
+\cleardoublepage
+%
+% Table of contents
+\setcounter{tocdepth}{2}		% define depth of toc
+\tableofcontents				% display table of contents
+\cleardoublepage
+
+
+% --------------------------
+% Body matter
+% --------------------------
+
+\pagenumbering{arabic}			% arabic page numbering
+\setcounter{page}{1}			% set page counter
+\pagestyle{maincontentstyle} 	% fancy header and footer
+
+% INCLUDE: all titlepages
+\input{contents/theory}		 
+\input{contents/cms}	
+\input{contents/analysis}	
+\input{contents/conclusion}
+\cleardoublepage
+
+% --------------------------
+% Back matter
+% --------------------------
+
+\setstretch{1.1}
+\renewcommand{\bibfont}{\normalfont\small}
+\setlength{\biblabelsep}{2pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\printbibliography
+%\printbibliography[heading=subbibliography,title={Bilbiography}]
+
+\appendix
+% 
+\input{contents/Supple_event_selection}
+\input{contents/Supple_background}
+\input{contents/Supple_statana}
+% Eidesstattliche Versicherung at the very end.
+\includepdf{Figures/Formular_Eidesstattliche+Versicherung_neu.pdf}
+\cleardoublepage
+
+% **************************************************
+% End of Document CONTENT
+% **************************************************
+\end{document}

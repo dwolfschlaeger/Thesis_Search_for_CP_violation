@@ -1,0 +1,284 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.10.14)  24 SEP 2018 11:11
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+**QFD_vertices.tex
+(./QFD_vertices.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./QFD_vertices.tex:1: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}
+                     [line width=1.5pt, scale=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./QFD_vertices.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}[
+                      line width=1.5pt, scale=1]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./QFD_vertices.tex:3: Undefined control sequence.
+l.3 \draw
+       [fermion] (0cm, 1.5cm) -- (0.75cm,0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:4: Undefined control sequence.
+l.4 \node
+        at (-0cm-0.5cm,1.5cm) {\textbf{\textit{l,q}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:5: Undefined control sequence.
+l.5 \draw
+       [fermion] (0.75 cm,0cm) -- (0cm,-1.5cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:6: Undefined control sequence.
+l.6 \node
+        at (0cm-0.5cm,-1.5cm) {\textbf{\textit{$\boldsymbol{\nu}_\mathbf{l},...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+./QFD_vertices.tex:6: Undefined control sequence.
+<recently read> \boldsymbol 
+            
+l.6 ...\nu}_\mathbf{l},\mathit{\mathbf{q}}^\prime$}}
+                                                  };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:7: Undefined control sequence.
+l.7 \draw
+       [vector] (0.75cm,0cm) -- (2.25cm, 0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:8: Undefined control sequence.
+l.8 \node
+        at (2.25cm+0.3cm, 0cm) {\textbf{\textit{W}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:9: Missing number, treated as zero.
+<to be read again> 
+[
+l.9 \fill[
+        black] (0:.75cm) circle (0.1cm);
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./QFD_vertices.tex:9: Illegal unit of measure (pt inserted).
+<to be read again> 
+[
+l.9 \fill[
+        black] (0:.75cm) circle (0.1cm);
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./QFD_vertices.tex:10: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{tikzpicture}
+                    %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./QFD_vertices.tex:11: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \begin{tikzpicture}
+                      [line width=1.5pt, scale=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./QFD_vertices.tex:12: Undefined control sequence.
+l.12 \draw
+        [step=0.5cm, very thin, transparent] (0cm,0cm) grid (3cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:13: Undefined control sequence.
+l.13 \draw
+        [fermion] (0cm, 1.5cm) -- (0.75cm,0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:14: Undefined control sequence.
+l.14 \node
+         at (-0cm-0.6cm,1.5cm) {\textbf{\textit{l,$\boldsymbol{\nu}_\mathbf{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:14: Undefined control sequence.
+<recently read> \boldsymbol 
+            
+l.14 ...{\textit{l,$\boldsymbol{\nu}_\mathbf{l}$,q}}
+                                                  };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:15: Undefined control sequence.
+l.15 \draw
+        [fermion] (0.75 cm,0cm) -- (0cm,-1.5cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:16: Undefined control sequence.
+l.16 \node
+         at (0cm-0.6cm,-1.5cm) {\textbf{\textit{l,$\boldsymbol{\nu}_\mathbf{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:16: Undefined control sequence.
+<recently read> \boldsymbol 
+            
+l.16 ...{\textit{l,$\boldsymbol{\nu}_\mathbf{l}$,q}}
+                                                  };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:17: Undefined control sequence.
+l.17 \draw
+        [vector] (0.75cm,0cm) -- (2.25cm, 0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:18: Undefined control sequence.
+l.18 \node
+         at (2.25cm+0.3cm, 0cm) {\textbf{\textit{Z}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QFD_vertices.tex:19: Missing number, treated as zero.
+<to be read again> 
+[
+l.19 \fill[
+         black] (0:.75cm) circle (0.1cm);
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./QFD_vertices.tex:19: Illegal unit of measure (pt inserted).
+<to be read again> 
+[
+l.19 \fill[
+         black] (0:.75cm) circle (0.1cm);
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+./QFD_vertices.tex:20: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{tikzpicture}
+                    %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> QFD_vertices.tex
+                 
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 38 strings out of 494693
+ 100000,89155 words of node,token memory allocated 3830 words of node memory still in use:
+   5 hlist, 6 math, 72 glue, 5 kern, 526 glyph, 55 glue_spec, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 1:1,2:13,3:7,7:1,9:2
+ 3875 multiletter control sequences out of 65536+600000
+ 32 fonts using 1269095 bytes
+ 21i,4n,18p,123b,136s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

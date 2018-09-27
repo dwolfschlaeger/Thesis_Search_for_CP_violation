@@ -1,0 +1,131 @@
+{
+    "analysis_modules": [
+        "BinErrorsOfEmptyBins", 
+        "CorrectNegativeBinContents", 
+        "ScaleHistograms"
+    ], 
+    "category": null, 
+    "colors": [
+        "qqh125", 
+        "gghjhusm125", 
+        "gghjhumm125", 
+        "gghjhups125"
+    ], 
+    "comment": "HiggsAnalysis/KITHiggsToTauTau/scripts/makePlots_controlPlots.py -i /nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/ -s qqh gghjhusm gghjhumm gghjhups -x H_pt -c em et mt tt -w (njets>1)*(mjj>300) -a   --live --formats pdf --x-label \" p_{T}^{#tau#tau} / GeV \" --scale-nicks gghjhumm125jhumm --scales 0.5 --filename H_pt_log  --x-bins 20,0,400  --www EventSelection/Categorization --cpggh --background-method simeqn --analysis-modules ScaleHistograms", 
+    "directories": [
+        "/nfs/dust/cms/user/dwolfsch/htautau/artus/2018-08-07_18-44_Run2CPStudies_Nominal_Summer16_plusHToTauTauM110-140/merged/"
+    ], 
+    "energies": [
+        13
+    ], 
+    "filename": "H_pt_log", 
+    "files": [
+        "VBFHToTauTauM125_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_powheg-pythia8/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingsmJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingmaxmixJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root", 
+        "GluGluH2JetsToTauTauM125CPmixingpseudoscalarJHU_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_JHUgen/*.root"
+    ], 
+    "folders": [
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple", 
+        "tt_nominal/ntuple"
+    ], 
+    "formats": [
+        "pdf"
+    ], 
+    "labels": [
+        "qqh125", 
+        "gghjhusm125", 
+        "gghjhumm125", 
+        "gghjhups125"
+    ], 
+    "legend": [
+        0.23, 
+        0.73, 
+        0.9, 
+        0.89
+    ], 
+    "legend_cols": 3, 
+    "legend_markers": [
+        "F", 
+        "L", 
+        "L", 
+        "L"
+    ], 
+    "lumis": [
+        35.9
+    ], 
+    "markers": [
+        "HIST", 
+        "LINE", 
+        "LINE", 
+        "LINE"
+    ], 
+    "nicks": [
+        "qqh125", 
+        "gghjhusm125jhusm", 
+        "gghjhumm125jhumm", 
+        "gghjhups125jhups"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "nicks_correct_negative_bins": [
+        "qqh125", 
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "nicks_empty_bins": [
+        "qqh125", 
+        "gghjhusm125jhusmjhusm", 
+        "gghjhumm125jhummjhumm", 
+        "gghjhups125jhupsjhups"
+    ], 
+    "output_dir": "/afs/desy.de/user/d/dwolfsch/cms_analysis/CMSSW_8_1_0/src/plots/control_plots/tt/", 
+    "scale_factors": [
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0
+    ], 
+    "scale_nicks": [
+        "gghjhumm125jhumm"
+    ], 
+    "scales": [
+        0.5
+    ], 
+    "stacks": [
+        "bkg", 
+        "gghjhusm", 
+        "gghjhumm", 
+        "gghjhups"
+    ], 
+    "title": "channel_tt", 
+    "weights": [
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(pt_1 > 50.0)*(pt_2 > 40.0)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(pt_1 > 50.0)*(pt_2 > 40.0)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(pt_1 > 50.0)*(pt_2 > 40.0)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)", 
+        "(1.0)*(1.0)*(1.0)*((((1.0)*((njets>1)*(mjj>300)))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(againstMuonLoose3_1 > 0.5)*(againstMuonLoose3_2 > 0.5)*(pt_1 > 50.0)*(pt_2 > 40.0)*(againstElectronVLooseMVA6_1 > 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(byTightIsolationMVArun2v1DBoldDMwLT_2 > 0.5)*((gen_match_2 == 5)*0.95 + (gen_match_2 != 5))*(byTightIsolationMVArun2v1DBoldDMwLT_1 > 0.5)*((gen_match_1 == 5)*0.95 + (gen_match_1 != 5))*((q_1*q_2)<0.0)*(1.0)"
+    ], 
+    "www": "EventSelection/Categorization/tt/", 
+    "x_bins": [
+        "20,0,400"
+    ], 
+    "x_expressions": [
+        "H_pt", 
+        "H_pt", 
+        "H_pt", 
+        "H_pt"
+    ], 
+    "x_label": " p_{T}^{#tau#tau} / GeV ", 
+    "y_lims": [
+        0.0
+    ], 
+    "y_rel_lims": [
+        0.0, 
+        1.4
+    ], 
+    "year": "2016"
+}

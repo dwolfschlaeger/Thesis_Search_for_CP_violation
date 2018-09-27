@@ -1,0 +1,307 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.10.14)  8 AUG 2018 17:18
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+**QED_vertices.tex
+(./QED_vertices.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./QED_vertices.tex:1: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}
+                     [line width=1.5pt, scale=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./QED_vertices.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{tikzpicture}[
+                      line width=1.5pt, scale=1]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./QED_vertices.tex:2: Undefined control sequence.
+l.2 \draw
+       [step=0.5cm, very thin, transparent] (0cm,0cm) grid (4cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:3: Undefined control sequence.
+l.3 \draw
+       [fermion] (0cm, 1.5cm) -- (0.75cm,0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:4: Undefined control sequence.
+l.4 \node
+        at (-0cm-0.3cm,1.5cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:5: Undefined control sequence.
+l.5 \draw
+       [fermion] (0.75 cm,0cm) -- (0cm,-1.5cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:6: Undefined control sequence.
+l.6 \node
+        at (0cm-0.3cm,-1.5cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:7: Undefined control sequence.
+l.7 \draw
+       [vector] (0.75cm,0cm) -- (2.25cm, 0cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:8: Undefined control sequence.
+l.8 \node
+        at (2.25cm+0.3cm, 0cm) {\textbf{\textit{$\gamma$}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+
+./QED_vertices.tex:9: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \end{tikzpicture}
+                   %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./QED_vertices.tex:10: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{tikzpicture}
+                      [line width=1.5pt, scale=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./QED_vertices.tex:11: Undefined control sequence.
+l.11 \draw
+        [step=0.5cm, very thin, transparent] (0cm,0cm) grid (4cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:12: Undefined control sequence.
+l.12 \draw
+        [fermion] (0cm,1.5cm) -- (1.5cm,0.75cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:13: Undefined control sequence.
+l.13 \node
+         at (0cm-0.3cm,1.5cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:14: Undefined control sequence.
+l.14 \draw
+        [fermion] (1.5cm,.75cm) -- (3cm,1.5cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:15: Undefined control sequence.
+l.15 \node
+         at (3cm+0.3cm,1.5cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:16: Undefined control sequence.
+l.16 \draw
+        [vector] (1.5cm,.75cm) -- (1.5cm, -0.75cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:17: Undefined control sequence.
+l.17 \node
+         at (1.5cm, -1cm) {\textbf{\textit{$\gamma$}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./QED_vertices.tex:18: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{tikzpicture}
+                    %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./QED_vertices.tex:19: LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{tikzpicture}
+                      [line width=1.5pt, scale=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./QED_vertices.tex:20: Undefined control sequence.
+l.20 \draw
+        [step=0.5cm, very thin, transparent] (0cm,0cm) grid (4cm,2cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:21: Undefined control sequence.
+l.21 \draw
+        [fermion] (0cm,1.5cm) -- (1.5cm,0.75cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:22: Undefined control sequence.
+l.22 \node
+         at (0cm-0.3cm,1.5cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:23: Undefined control sequence.
+l.23 \draw
+        [vector] (1.5cm,.75cm) -- (3cm,1.5cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:24: Undefined control sequence.
+l.24 \node
+         at (3cm+0.3cm,1.5cm) {\textbf{\textit{$\gamma$}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:25: Undefined control sequence.
+l.25 \draw
+        [fermion] (1.5cm,.75cm) -- (1.5cm, -0.75cm);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./QED_vertices.tex:26: Undefined control sequence.
+l.26 \node
+         at (1.5cm, -1cm) {\textbf{\textit{f}}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./QED_vertices.tex:27: LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{tikzpicture}
+                    %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> QED_vertices.tex
+                 
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 27 strings out of 494693
+ 100000,89155 words of node,token memory allocated 5356 words of node memory still in use:
+   1 hlist, 6 math, 101 glue, 9 kern, 755 glyph, 68 glue_spec, 1 temp, 1 local_par, 1 dir nodes
+   avail lists: 2:13,3:1,4:1,7:1,9:2
+ 3869 multiletter control sequences out of 65536+600000
+ 27 fonts using 1072951 bytes
+ 21i,1n,14p,85b,132s stack positions out of 5000i,500n,10000p,200000b,100000s
+!  ==> Fatal error occurred, no output PDF file produced!

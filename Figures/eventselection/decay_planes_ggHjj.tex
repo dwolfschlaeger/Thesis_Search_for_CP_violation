@@ -1,0 +1,55 @@
+\begin{tikzpicture}[line width=1.5pt]
+% https://github.com/thomas-mueller/PhdThesis/tree/master/doc/thesis/figures/latex
+
+\draw[gluon, ctcoloraccessory] (0:0cm) -- (0:2cm);
+\node[ctcoloraccessory] at (20:1.5cm) {$g$};
+\draw[fermion, ctcoloraccessory] ($ (0:4cm) + (90+10:3cm) $) -- (0:2cm);
+\node[ctcoloraccessory] at ($ (0:2cm) + (70:2.75cm) $) {$q$};
+\draw[fermion, ctcoloraccessory] (0:2cm) -- ($ (0:4cm) + (90+10+180:3.0cm) $);
+\node[ctcoloraccessory] at ($ (0:2cm) + (-58:3cm) $) {$q$};
+
+\draw[gluon, ctcolormain] (180:0cm) -- (180:2cm);
+\node[ctcolormain] at (180-20:1.5cm) {$g$};
+\draw[gluon, ctcolormain] ($ (180:4cm) + (90-20:3.0cm) $) -- (180:2cm);
+\node[ctcolormain] at ($ (180:2cm) + (120:2cm) $) {$g$};
+\draw[gluon, ctcolormain] (180:2cm) -- ($ (180:4cm) + (90-20+180:3.0cm) $);
+\node[ctcolormain] at ($ (180:2cm) + (-129:3.1cm) $) {$g$};
+
+\fill[black] (0:0cm) circle (0.15cm);
+\node[black] at (70:0.55cm) {$H$};
+
+\draw[ctcoloraccessory, dotted, thin] (0:2cm) -- (0:4cm);
+\fill[ctcoloraccessory, opacity=0.1] (90+10:3.0cm) -- ($ (0:4cm) + (90+10:3.0cm) $) -- ($ (0:4cm) + (90+10+180:3.0cm) $) -- (90+10+180:3.0cm);
+\draw[ctcoloraccessory, -, dashed, very thin] (90+10:3.0cm) -- ($ (0:4cm) + (90+10:3.0cm) $) -- ($ (0:4cm) + (90+10+180:3.0cm) $) -- (90+10+180:3.0cm) -- (90+10:3.0cm);
+\fill[ctcoloraccessory] (0:2cm) circle (0.1cm);
+
+\draw[black] (0:2.8cm) arc (0:-50:0.8cm);
+\node[black] at ($ (0:2cm) + (-25:1.2cm) $) {$\vartheta_1$};
+
+\draw[ctcolormain, dotted, thin] (180:2cm) -- (180:4cm);
+\fill[ctcolormain, opacity=0.1] (90-20:3.0cm) -- ($ (180:4cm) + (90-20:3.0cm) $) -- ($ (180:4cm) + (90-20+180:3.0cm) $) -- (90-20+180:3.0cm);
+\draw[ctcolormain, -, dashed, very thin] (90-20:3.0cm) -- ($ (180:4cm) + (90-20:3.0cm) $) -- ($ (180:4cm) + (90-20+180:3.0cm) $) -- (90-20+180:3.0cm) -- (90-20:3.0cm);
+\fill[ctcolormain] (180:2cm) circle (0.1cm);
+
+\draw[black] (180:1.4cm) arc (0:-136:0.6cm);
+\node[black] at ($ (180:2cm) + (-68:1cm) $) {$\vartheta_2$};
+
+\draw[black] (-80:1.2cm) arc (-80:-110:1.2cm);
+\node[black] at (-95:1.6cm) {$\Delta\phi_{jj}$};
+
+\draw[fermion, gray] (90+40:3.0cm) -- (0:0cm);
+\node[gray] at (90+40:3.35cm) {$\tau^+$};
+\draw[fermion, gray] (0:0cm) -- (90+40+180:3.0cm);
+\node[gray] at (90+40+180:3.35cm) {$\tau^-$};
+\fill[black] (0:0cm) circle (0.15cm);
+
+\fill[gray, opacity=0.1] ($ (0:4cm) + (90+40:3.0cm) $) -- ($ (0:4cm) + (90+40+180:3.0cm) $) -- ($ (180:4cm) + (90+40+180:3.0cm) $) -- ($ (180:4cm) + (90+40:3.0cm) $);
+\draw[gray, -, dashed, very thin] ($ (0:4cm) + (90+40:3.0cm) $) -- ($ (0:4cm) + (90+40+180:3.0cm) $) -- ($ (180:4cm) + (90+40+180:3.0cm) $) -- ($ (180:4cm) + (90+40:3.0cm) $) -- ($ (0:4cm) + (90+40:3.0cm) $);
+
+\draw[black] (0:0.8cm) arc (0:-50:0.8cm);
+\node[black] at (-25:1.2cm) {$\vartheta^*$};
+
+\draw[black] ($ (0:4cm) + (-50:1.2cm) $) arc (-50:-80:1.2cm);
+\node[black] at ($ (0:4cm) + (-65:1.6cm) $) {$\varphi_2$};
+
+\end{tikzpicture}

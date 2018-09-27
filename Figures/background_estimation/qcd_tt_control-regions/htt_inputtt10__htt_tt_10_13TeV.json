@@ -1,0 +1,148 @@
+{
+    "analysis_modules": [
+        "Ratio", 
+        "NormalizeByBinWidth"
+    ], 
+    "colors": [
+        "ztt", 
+        "zll", 
+        "tt", 
+        "vv", 
+        "w", 
+        "qcd", 
+        "data_obs", 
+        "15", 
+        "data_obs"
+    ], 
+    "comment": "HiggsAnalysis/KITHiggsToTauTau/scripts/makePlots_prefitPostfitPlots.py -i CombineHarvester/HTTSMCP2016/output/2018-09-13_FULL_mela3D_JECgroupings/tt/common/htt_inputtt10.root -b ZTT ZLL ZL ZJ TT TTT TTJ VV VVT VVJ W QCD qqH -r -a  --y-subplot-lims 0.95 1.05 --y-label \"Events/bin\"  --title \"#tau_{h}#tau_{h} - 0jet QCD CR\" --formats pdf png  --www qcd_tt_control-regions --cpggh", 
+    "energies": [
+        13
+    ], 
+    "filename": "htt_inputtt10__htt_tt_10_13TeV", 
+    "files": [
+        "CombineHarvester/HTTSMCP2016/output/2018-09-13_FULL_mela3D_JECgroupings/tt/common/htt_inputtt10.root"
+    ], 
+    "folders": [
+        "htt_tt_10_13TeV"
+    ], 
+    "formats": [
+        "pdf", 
+        "png"
+    ], 
+    "histograms_to_normalize_by_binwidth": [
+        "TTT_TTJ", 
+        "data_obs", 
+        "VVT_VVJ", 
+        "W", 
+        "QCD", 
+        "ZTT", 
+        "ZL_ZJ"
+    ], 
+    "labels": [
+        "ztt", 
+        "zll", 
+        "tt", 
+        "vv", 
+        "w", 
+        "qcd", 
+        "data_obs", 
+        "", 
+        ""
+    ], 
+    "legend": [
+        0.23, 
+        0.63, 
+        0.9, 
+        0.83
+    ], 
+    "legend_cols": 3, 
+    "legend_markers": [
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "F", 
+        "ELP", 
+        "ELP", 
+        "ELP"
+    ], 
+    "lumis": [
+        35.9
+    ], 
+    "markers": [
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "HIST", 
+        "E", 
+        "E2", 
+        "E"
+    ], 
+    "nicks": [
+        "ZTT", 
+        "ZL_ZJ", 
+        "ZL_ZJ", 
+        "TTT_TTJ", 
+        "TTT_TTJ", 
+        "VVT_VVJ", 
+        "VVT_VVJ", 
+        "W", 
+        "QCD", 
+        "data_obs"
+    ], 
+    "output_dir": "CombineHarvester/HTTSMCP2016/output/2018-09-13_FULL_mela3D_JECgroupings/tt/common", 
+    "ratio_denominator_nicks": [
+        "TTT_TTJ VVT_VVJ W QCD ZTT ZL_ZJ", 
+        "TTT_TTJ VVT_VVJ W QCD ZTT ZL_ZJ"
+    ], 
+    "ratio_numerator_nicks": [
+        "TTT_TTJ VVT_VVJ W QCD ZTT ZL_ZJ", 
+        "data_obs"
+    ], 
+    "ratio_result_nicks": [
+        "ratio_bkg", 
+        "ratio_data"
+    ], 
+    "stacks": [
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "background", 
+        "data", 
+        "ratio_bkg", 
+        "ratio_data"
+    ], 
+    "title": "#tau_{h}#tau_{h} - 0jet QCD CR", 
+    "www": "qcd_tt_control-regions/", 
+    "x_expressions": [
+        "ZTT", 
+        "ZL", 
+        "ZJ", 
+        "TTT", 
+        "TTJ", 
+        "VVT", 
+        "VVJ", 
+        "W", 
+        "QCD", 
+        "data_obs"
+    ], 
+    "x_label": "m_{#tau#tau}/GeV", 
+    "y_label": "Events/bin", 
+    "y_lims": [
+        0.0
+    ], 
+    "y_rel_lims": [
+        0.0, 
+        1.5
+    ], 
+    "y_subplot_lims": [
+        0.95, 
+        1.05
+    ], 
+    "year": "2016"
+}

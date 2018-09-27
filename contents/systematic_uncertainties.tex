@@ -1,0 +1,144 @@
+% !TEX root = ../main.tex
+In addition to the systematic uncertainties arising from the background estimation, uncertainties on normalizations, reconstruction and identification efficiencies and theoretical ambiguities are applied.
+There are in general two types of systematic uncertainties. \textit{Shape} uncertainties affect the yield in every bin of the investigated histograms individually and thus alters the shape, and thereby to some extend also the normalization, of them.
+Whereas, \textit{log-normal} (lnN) uncertainties modify the overall rate of a process.
+The majority of systematic uncertainties included in this analysis was taken from the search of the Higgs boson decaying into tau leptons\,\cite{Sirunyan:2017khh} as this analysis is based on it. These uncertainties are summarized in \tabreft{SU:sys_uncs} and \ref{SU:sys_uncs_2}. Additional analysis-specific systematic uncertainties
+and modifications of the existing ones are discussed in this section.
+
+\subsection{Limited size of MC samples}
+As the simulated Monte Carlo event samples only have a finite number of events, the number of events from simulated samples in every bin is influenced by 
+statistical fluctuations. To incorporate these statistical uncertainties in the final fit, bin-by-bin uncertainties are added as
+additional nuisance parameters \cite{BARLOW1993219,bbb_conway}. These nuisances depend only on the bin content and allows the processes to float during the final fit to take these fluctuations into account.
+
+\subsection{Gluon fusion in association with jets}
+As this analysis is performed in bins with different number of jets, so-called jet bin acceptance uncertainties must be considered as theory uncertainties on the Higgs boson in association with jets cross section. 
+In addition to an uncertainty on the total yield in each jet bin that can be calculated with fixed-order perturbative calculations, migration uncertainties between the bins must be taken into account. These cancel each other if the inclusive jet bin is investigated.
+Uncertainties on this jet bin acceptance for the Higgs boson signal in association with 0, 1 or more jets are applied according to the Stewart-Tackmann method in \cite{Heinemeyer:2013tqa,PhysRevD.85.034011}.
+As listed in \tabreft{SU:jetbinuncs} these uncertainties are applied in different categories according to the possible number of jets in these categories.
+\begin{table}[!]
+    \centering
+    \caption{Jet bin acceptance systematic uncertainties added as theory uncertainties on the $\mathsf{gg\rightarrow H}$ process according to the Stewart-Tackmann method.}\label{SU:jetbinuncs}
+    \begin{tabular}{lcccl}
+        \toprule  
+        Source              & Type   & Channel & Processes & Value \\ \hline
+        STXSmig01 - 0-jet   & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 4.1\%  \\ 
+        STXSmig01 - boosted & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 7.9\%  \\ 
+        STXSmig01 - dijet   & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 3.9\%  \\ 
+        STXSmig12 - boosted & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 6.8\%  \\ 
+        STXSmig12 - dijet   & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 16.1\% \\ 
+        STXSVBF2j - dijet   & lnN    & All     & $\mathsf{gg\rightarrow H}$ & 20\%   \\ 
+    \end{tabular}
+\end{table}
+
+\subsection{Jet energy correction uncertainties}
+
+The energy of jets is corrected for various detector effects and the resulting systematic uncertainties are provided by the 
+CMS collaboration as a function of the pseudorapidity and transverse momentum of the jet. There are in total 27 individual, uncorrelated sources 
+of jet energy correction uncertainties (JEC uncertainties)  \cite{Khachatryan:2016kdb}. Every of these sources modifies the four-momentum of the jets and has consequently an impact on the shape of the final observables as calculated by MELA.
+It is technically very challenging, and more important very time-consuming, to propagate the impact of every single JEC uncertainty through the entire analysis.   
+For this reason usually the total JEC uncertainty calculated by the quadratic sum of the individual sources is applied.
+Despite that, it was found in Ref. \cite{Sirunyan:2017khh} that the final fit over-constrained the total JEC uncertainty, and it was therefore decided to use the 27
+individual sources instead.
+For this analysis it makes sense to seek for a good comprise in terms of physical modeling of the JEC uncertainties and computing time.
+Therefore, JEC uncertainties groupings are formed \tabref{SU:jec_groupings} whereby the individual uncertainties
+build mutual sets according to the region of the detector where they are applied. It is possible to divide the detector into regions of pseudorapidity in this case.
+The only single uncertainty that forms a group by itself is the \textit{RelativeBal} uncertainty that was found to be unexplicably large. This uncertainty was introduced
+in Run 2 and covers the difference between the fits of MPF and \pt{} balance methods for deriving the JECs \cite{relativeBal}. Thus, it affects jets in the whole detector.
+A comparison of the individual, total and grouped uncertainties was not implemented by means of studying the impact of the nuisances on the 
+parameter of interest. But the effect was studied by the CMS collaboration and shown in Ref. \cite{jec_groupings} with an analysis setup which is reasonably close to the
+setup used here. Therefore, the groupings are expected to be less constrained in the final fit than the total JEC uncertainty, too.
+
+\begin{table}[!]
+    \centering
+    \caption[Jet energy correction uncertainty groupings.]{List of JEC uncertainty sources assigned to the three pseudorapidity regions used in this analysis to group these systematic uncertainties.}\label{SU:jec_groupings}
+    \begin{tabular}{cl}
+        \toprule
+        $\eta$  & JEC sources   \\ \midrule
+        \multirow{3}{*}{0-3}       & {\small SinglePionECAL, SinglePionHCAL, AbsoluteFlavMap, AbsoluteMPFBias,}  \\
+                                & {\small AbsoluteScale, AbsoluteStat, Fragmentation, FlavorQCD, TimePtEta,} \\
+                                & {\small PileUpDataMC, RelativeFSR, RelativeStatFSR, PileUpPtRef} \\ \midrule
+        \multirow{2}{*}{3-5}       & {\small PileUpPtEC1, PileUpPtEC2, PileUpPtBB, RelativeJEREC1, RelativeJEREC2,} \\
+                                & {\small RelativePtEC1, RelativePtEC2, RelativeStatEC, RelativePtBB} \\ \midrule
+        0-5                        & {\small RelativeStatHF, RelativePtHF, PileUpPtHF, RelativeJERHF} \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[!]
+    \centering
+    \caption{List of systematics uncertainties. All uncertainties were introduced in the SM search of the decay of the Higgs boson in a pair of tau leptons
+    and discussed there. In this table * denotes that all channel or all processes taken from simulation are affected by the corresponding uncertainty.}\label{SU:sys_uncs}
+    \begin{tabular}{cllll}
+        \toprule
+        Source                                  & Type                  & Channel                       & Processes & Value \\ \hline
+        \multicolumn{5}{c}{Efficiencies, Luminosity and triggers} \\ \midrule
+        Luminosity                              & lnN                   &   *                           & *         & 2.5\% \\ 
+        \multirow{2}{*}{$\epsilon_\text{Trigger}$ }  & \multirow{2}{*}{lnN}  & $e\mu$, $e\tau_\text{h}$,$\mu\tau_\text{h}$ & * & 2\% \\
+                                                &                       & $\tau_\text{h}\tau_\text{h}$                & * & 10\% \\ \hline
+        $\epsilon_{e}$                          & lnN                   & $e\mu$,$e\tau_\text{h}$              & * & 2\% \\  
+        $\epsilon_{\mu}$                        & lnN                   & $e\mu$,$\mu\tau_\text{h}$            & * & 2\% \\  
+        \multirow{6}{*}{$\epsilon_{\tau}$}      & \multirow{6}{*}{lnN}  & $e\mu$,$\mu\tau_\text{h}$ - correlated            & * & 4.5\% \\ 
+                                                &                       & $e\mu$,$\mu\tau_\text{h}$ - channel-specific & * & 2\%  \\  
+                                                &                       & $\tau_\text{h}\tau_\text{h}$ - correlated & ZTT,VVT,TTT,EWKZ & 9\%  \\  
+                                                &                       & $\tau_\text{h}\tau_\text{h}$ - channel-specific & ZTT,VVT,TTT,EWKZ & 4\%  \\  
+                                                &                       & $\tau_\text{h}\tau_\text{h}$ - correlated & TTJ,ZJ,VVJ,W            & 6\%  \\  
+                                                &                       & $\tau_\text{h}\tau_\text{h}$ - channel-specific & TTJ,ZJ,VVJ,W  & 2\%  \\ \hline  
+        $\epsilon_{\text{b-tag}}$               &  shape                &  $e\mu$, $e\tau_\text{h}$,$\mu\tau_\text{h}$   & * &\\
+        b-tag mis. id. rate                     &  shape                &  $e\mu$, $e\tau_\text{h}$,$\mu\tau_\text{h}$   & * &\\ \midrule
+        \multicolumn{5}{c}{Energy scale (ES)} \\ \midrule
+        \tau{} ES - $e$                           & shape                 & $e\mu$                         & * & \\ 
+        \tau{} ES - $\tau_\text{h}$ - 1prong      & shape                 & $e\tau_\text{h}$,$\mu\tau_\text{h}$,$\tau_\text{h}\tau_\text{h}$ & ZTT,TTT,TT,VV,VVT,EWKZ & \\  
+        \tau{} ES - $\tau_\text{h}$ - 1prong1pi0  & shape                 & $e\tau_\text{h}$,$\mu\tau_\text{h}$,$\tau_\text{h}\tau_\text{h}$ & ZTT,TTT,TT,VV,VVT,EWKZ & \\  
+        \tau{} ES - $\tau_\text{h}$ - 3prong      & shape                 & $e\tau_\text{h}$,$\mu\tau_\text{h}$,$\tau_\text{h}\tau_\text{h}$ & ZTT,TTT,TT,VV,VVT,EWKZ & \\  
+        Jet ES - $\text{0}<\abs{\eta} < \text{3}$ & shape                 & *                              & * & \\
+        Jet ES - $\text{0}<\abs{\eta} < \text{5}$ & shape                 & *                              & * & \\
+        Jet ES - $\text{3}<\abs{\eta} < \text{5}$ & shape                 & *                              & * & \\
+        Jet ES - RelativeBal                    & shape                 & *                              & * & \\
+        MET ES - unclustered                    & shape                 & *                              & * & \\
+        MET ES - clustered                      & shape                 & *                              & * & \\ \hline
+        \multicolumn{5}{c}{Normalization} \\ \midrule
+        VV xsec                           & lnN                   & *                              & VV,VVT,VVJ & 5\% \\
+        ZJ xsec                           & lnN                   & *                              & ZTT,ZJ,ZL,ZLL & 4\% \\
+        EWKZ xsec                         & lnN                   & *                              & EWKZ & 4\% \\ \midrule
+        \multicolumn{5}{c}{Reweighting} \\ \midrule
+        DY reweighting                    & shape                   & * & ZTT,ZJ,ZL,ZLL &   \\
+        $t\bar{t}$ reweighting            & shape                   & * & TTJ,TTT,TT,                   & \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[!]
+    \centering
+    \caption{List of systematics uncertainties (continuation).}\label{SU:sys_uncs_2}
+    \begin{tabular}{cllll}
+        \toprule
+        Source                                  & Type                  & Channel                       & Processes & Value \\ \hline
+        \multicolumn{5}{c}{Misidentification rates} \\ \midrule
+        ZL - 1prong                       & shape                   & $e\tau_\text{h}$,$\mu\tau_\text{h}$ & ZL &   \\
+        ZL - 1prong1pi0                   & shape                   & $e\tau_\text{h}$,$\mu\tau_\text{h}$ & ZL &   \\
+        $\mu\rightarrow\tau_\text{h}$ mis.id.    & lnN                     & $\mu\tau_\text{h}$           & ZL & 7\% \\  
+        $e\rightarrow\tau_\text{h}$ mis.id.      & lnN                     & $e\tau_\text{h}$             & ZL & 10\% \\  
+        \multirow{3}{*}{$\text{jet}\rightarrow \tau_\text{h}$ mis.id.} & lnN & $\tau_\text{h}\tau_\text{h}$ & W  & 20\% \\
+                                         & lnN  & $e\tau_\text{h}$,$\mu\tau_\text{h}$ & VVJ,TTJ,ZJ & 20\%  \\          
+                                         & shape & $e\tau_\text{h}$,$\mu\tau_\text{h}$ & W &               \\  \midrule  
+        \multicolumn{5}{c}{Theoretical uncertainties} \\ \midrule
+        gg Scale                                & shape                 & *                             & $\mathsf{gg\rightarrow H}$      &           \\ 
+        Finite quark mass                       & shape                 & *                             & $\mathsf{gg\rightarrow H}$       &           \\ 
+        Parton showering - 0-jet                & lnN                   & *                             & $\mathsf{gg\rightarrow H}$      & 1.5\%           \\ 
+        Parton showering - boosted              & lnN                   & *                             & $\mathsf{gg\rightarrow H}$       & 5.5\%           \\ 
+        Parton showering - dijet                & lnN                   & *                             & $\mathsf{gg\rightarrow H}$       & 3\%           \\ 
+        Theory uncertainty                      & lnN                   & *                             & $H\rightarrow\tau\tau$    & 1.7\%           \\ 
+        Pile Up                                 & lnN                   & *                             & $H\rightarrow\tau\tau$    & 0.99\%           \\ 
+        Pile Up - $g_\text{s}$                  & lnN                   & *                             & $H\rightarrow\tau\tau$    & 0.62\%           \\ 
+        Theory uncertainty                      & lnN                   & *                             & $H\rightarrow WW$    & 0.99\%           \\ 
+        Pile Up                                 & lnN                   & *                             & $H\rightarrow WW$    & 0.99\%           \\ 
+        Pile Up - $g_\text{s}$                  & lnN                   & *                             & $H\rightarrow WW$    & 0.66\%           \\ 
+        \multirow{4}{*}{QCD Scale}              & lnN                   & *                             & $\mathsf{gg\rightarrow H}$    & 3.9\% \\
+                                                & lnN                   & *                             & $\mathsf{qq\rightarrow H}$    & 0.4\% \\
+                                                & lnN                   & *                             & $\mathsf{WH}$    & 0.7\% \\
+                                                & lnN                   & *                             & $\mathsf{ZH}$    & 3.8\% \\
+        \multirow{4}{*}{Higgs PDF}              & lnN                   & *                             & $\mathsf{gg\rightarrow H}$    & 3.2\% \\
+                                                & lnN                   & *                             & $\mathsf{qq\rightarrow H}$    & 2.1\% \\
+                                                & lnN                   & *                             & $\mathsf{WH}$    & 1.9\% \\
+                                                & lnN                   & *                             & $\mathsf{ZH}$    & 1.6\% \\ \bottomrule
+    \end{tabular}
+\end{table}
+\clearpage
